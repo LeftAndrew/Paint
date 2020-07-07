@@ -34,7 +34,7 @@ while active:
     #Draw the rectangles
     for i in range(0, 60):
         for j in range(0, 60):
-            if rectangles[i][j].mouse_pressed() and dimension == 0:
+            if rectangles[i][j].mouse_pressed() and dimension == 10:
                 rectangles[i][j].color = RED
             elif rectangles[i][j].mouse_pressed() and dimension == 30:
                 rectangles[i - 1][j].color = RED
